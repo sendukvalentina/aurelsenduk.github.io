@@ -50,7 +50,7 @@ body{
 /* Mengatur background jumbotron */
 .jumbotron {
   padding-top: 20vh;
-  background-image: 'leaves2_pixabay.png';
+  background-image: url('https://cdn.pixabay.com/photo/2020/01/16/10/13/mountain-and-sea-4770131_960_720.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
