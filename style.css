@@ -1,0 +1,92 @@
+body{
+  font-family: system-ui;
+}
+
+/* Untuk mengatur tampilan ikon */
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px;
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.5s;
+}
+
+/* Mengatur tampilan ikon saat mouse didekatkan*/
+.fa:hover {
+  cursor: pointer;
+  transform: rotateZ(360deg);
+  /* opacity: 0.7; */
+}
+
+/* Mengatur tampilan ikon facebook*/
+.fa-facebook {
+  background: white;
+  color: #3b5998;
+}
+
+/* Mengatur tampilan ikon twitter*/
+.fa-twitter {
+  background: white;
+  color: #55acee;
+}
+
+/* Mengatur tampilan ikon google*/
+.fa-google {
+  background: white;
+  color: #dd4b39;
+}
+
+/* Mengatur tampilan ikon linkedin */
+.fa-linkedin {
+  background: white;
+  color: #007bb5;
+}
+
+/* Mengatur background jumbotron */
+.jumbotron {
+  padding-top: 20vh;
+  background-image: url('leaves2_pixabay.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: #f8f8f8; */
+}
+
+/* Mengatur warna teks heading */
+h1,
+h2 {
+  color:#42413f;
+}
+
+h5{
+  color:rgb(61, 163, 51);
+}
+
+.sansita{
+  font-family: 'Sansita Swashed';
+  /* , cursive; */
+}
+
+/* Mengatur tampilan judul formulir */
+.message {
+  padding: 15px;
+  /* text-align: center; */
+}
+
+a{
+  color: #DD4B39;
+}
+
+a:hover{
+  color: #DD4B39;
+  text-decoration: none;
+}
+
+.bootstrap-link:hover{
+  font-size: larger;
+}
